@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Guess_A_Number</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="shortcut icon" href="./img/icons8-shortcuts-96.png" type="image/png">
+    </head>
+    <body>
+        <header>
+            <h1 class="header">Guess A Number </h1>
+        </header>
+
+
+<ol class="absolute">
+    <li>Choose range between and start the game</li>
+    <li>**This hint will be hidden when you click the button</li>
+</ol>
+
+<article class="container">
+       <div class="form">
+             
+            <h2 class="subheader">Enter number between: </h2>
+
+                <p class="chances">You have 4 chances</p>
+
+                <input type="text" class="inputs" />
+                
+                <select name="Size" class="selector">
+                    <option disabled>Choose option:</option>
+                    <option value="first">From 0 to 10</option>
+                    <option value="second">From 0 to 20</option>
+                    <option value="third">From 0 to 30</option>
+                </select>
+           
+                <button class="btn" onClick="getNumber()">Submit</button>
+                <button class="btn disabled" onClick="Restart()">Restart</button>
+                <p class="result"></p>
+        </div>
+</article>
+
+
+
+        <script src="./style/script.js" async defer></script>
+    </body> 
+</html>

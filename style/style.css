@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*, 
+:after,
+:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Otomanopee One', sans-serif;
+    background-color:#E0B1CB;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#303E9F;
+    height: 150px;
+    max-width: 100%;
+    color: #FC7142;
+    font-size:30px;
+}
+.subheader {
+    color:#333; 
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #BE95C4;
+    height:300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+    background-color: #fca311;
+}
+
+.inputs {
+    margin:10px 0;
+    outline: none;
+}
+
+.selector {
+    margin:15px 0;
+    background-color: DodgerBlue;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+    width: 140px;
+    color: #fff;
+}
+
+
+.btn {
+    font-family: 'Otomanopee One', sans-serif;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    font-size:20px;
+    color: #fff;
+    border-radius: 25px;
+    height: 40px;
+    background-color: #14213d;
+    transition: all .5s;
+    margin-bottom: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.btn:hover {
+    background-color: #560bad;
+}
+
+.disabled {
+    display:none;
+}
+
+.absolute {
+    display:block;
+    position:absolute;
+    left:40px;
+}
