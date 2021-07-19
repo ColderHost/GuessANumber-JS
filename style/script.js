@@ -5,7 +5,7 @@ const select = document.querySelector(".selector");
 const dis_btn = document.querySelector(".disabled");
 const instruction = document.querySelector(".absolute");
 
-let guesses = 4;
+let guesses = 3;
 let rdmN0A10 = getRandomNumber(10);
 let rdmN0A20 = getRandomNumber(20);
 let rdmN0A30 = getRandomNumber(30);
